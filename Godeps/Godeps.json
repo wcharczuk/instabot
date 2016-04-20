@@ -1,0 +1,38 @@
+{
+	"ImportPath": "github.com/wcharczuk/instabot",
+	"GoVersion": "go1.6",
+	"Deps": [
+		{
+			"ImportPath": "github.com/blendlabs/go-exception",
+			"Rev": "4f8219ce4d9bf0a7074e988fb5dc8d71d536db13"
+		},
+		{
+			"ImportPath": "github.com/blendlabs/go-util",
+			"Rev": "66b67f5a9e13b732e41525c44feb6d4c7a5d94bd"
+		},
+		{
+			"ImportPath": "github.com/blendlabs/spiffy",
+			"Comment": "v1.0-119-g2241142",
+			"Rev": "22411423d906f567b7be2276ac93ff49b007c712"
+		},
+		{
+			"ImportPath": "github.com/julienschmidt/httprouter",
+			"Comment": "v1.1-29-g77366a4",
+			"Rev": "77366a47451a56bb3ba682481eed85b64fea14e8"
+		},
+		{
+			"ImportPath": "github.com/lib/pq",
+			"Comment": "go1.0-cutoff-84-g3cd0097",
+			"Rev": "3cd0097429be7d611bb644ef85b42bfb102ceea4"
+		},
+		{
+			"ImportPath": "github.com/lib/pq/oid",
+			"Comment": "go1.0-cutoff-84-g3cd0097",
+			"Rev": "3cd0097429be7d611bb644ef85b42bfb102ceea4"
+		},
+		{
+			"ImportPath": "github.com/wcharczuk/go-web",
+			"Rev": "30e0bc48e891d171dd3080e468bd825d8d7b8118"
+		}
+	]
+}
