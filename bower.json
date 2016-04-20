@@ -1,0 +1,25 @@
+{
+	"name": "giffy",
+	"description": "Giffy is a better way to search for gifs.",
+	"main": "",
+	"authors": [
+		"Will Charczuk <will.charczuk@gmail.com>"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/wcharczuk/instabot",
+	"moduleType": [],
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"jquery": "^2.2.2",
+		"bootstrap": "^3.3.6",
+		"less": "^2.6.1",
+		"lodash": "^4.6.1"
+	}
+}
