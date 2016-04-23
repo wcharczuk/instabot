@@ -156,6 +156,16 @@ func ConfigURL() string {
 	return fmt.Sprintf("%s://%s", ConfigHTTPProto(), ConfigHostname())
 }
 
+// ConfigInstagramClientID returns the google client id.
+func ConfigInstagramClientID() string {
+	return os.Getenv("INSTAGRAM_CLIENT_ID")
+}
+
+// ConfigInstagramSecret returns the google secret.
+func ConfigInstagramSecret() string {
+	return os.Getenv("INSTAGRAM_CLIENT_SECRET")
+}
+
 // ConfigGoogleClientID returns the google client id.
 func ConfigGoogleClientID() string {
 	return os.Getenv("GOOGLE_CLIENT_ID")
@@ -176,11 +186,6 @@ func ConfigSlackClientSecret() string {
 	return os.Getenv("SLACK_CLIENT_SECRET")
 }
 
-// ConfigStathatToken returns the stathat token.
-func ConfigStathatToken() string {
-	return os.Getenv("STATHAT_TOKEN")
-}
-
 // ConfigFacebookClientID returns the facebook client id.
 func ConfigFacebookClientID() string {
 	return os.Getenv("FACEBOOK_CLIENT_ID")
@@ -189,6 +194,11 @@ func ConfigFacebookClientID() string {
 // ConfigFacebookClientSecret returns the bacebook client secret.
 func ConfigFacebookClientSecret() string {
 	return os.Getenv("FACEBOOK_CLIENT_SECRET")
+}
+
+// ConfigStathatToken returns the stathat token.
+func ConfigStathatToken() string {
+	return os.Getenv("STATHAT_TOKEN")
 }
 
 // Setwd sets the working directory to the relative path.
